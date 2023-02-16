@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet";
 import Switch from "@/components/Switch";
 import Folder from "@/icons/Folder";
 import CardCheck from "@/components/CardCheck";
@@ -17,11 +18,13 @@ const IndexPage = () => {
       className="flex flex-col items-center bg-white dark:bg-dark-500 text-black dark:text-white pt-24 pb-12"
       style={{ minHeight: "100vh" }}
     >
-      <title>SonWan UI</title>
+      <Helmet>
+        <title>SonWan UI</title>
+      </Helmet>
       <div style={{ width: 768, maxWidth: "100%" }} className="flex flex-col">
-        <div className="text-5xl font-extrabold text-center tracking-tighter mb-2">
+        <h1 className="text-5xl font-extrabold text-center tracking-tighter mb-2">
           SonWan UI
-        </div>
+        </h1>
         <div className="text-sm font-light text-center px-8 tracking-wide mb-6 max-w-lg self-center">
           <p>
             SonWan UI is a modular, component library based on figma design to
@@ -58,7 +61,7 @@ const IndexPage = () => {
               />
             </Card>
             <Card>
-              <div className="opacity-50 my-1">Recent Contacts</div>
+              <h3 className="opacity-50 my-1">Recent Contacts</h3>
               <CardItem
                 title="Samantha"
                 className="py-4"
@@ -154,9 +157,9 @@ const IndexPage = () => {
                 onSwipeFinish={() => alert("Swipe Triggered")}
               />
             </div>
-            <div className="py-4 text-sm opacity-50 w-full text-center">
+            <span className="block py-4 text-sm opacity-50 w-full text-center">
               More Component Coming Soon...
-            </div>
+            </span>
           </div>
         </div>
       </div>
