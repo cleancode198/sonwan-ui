@@ -54,12 +54,10 @@ return (
 
 ## Demo
 
-Demo: [CodeSandbox](https://codesandbox.io/s/sonwan-ui-hl4yh?from-embed)
-
 Demo Chat UI: [SonWan Chat UI](https://sonwan-chat.vercel.app)
-Code: [SonWan Chat Github](https://github.com/sonnylazuardi/sonwan-chat)
+Code: [SonWan Chat Github](https://github.com/cleancode198/sonwan-chat)
 
 
 ## React Native Support
 
-Please check out https://github.com/Drzaln/SonWanUI-RN
+Please check out https://github.com/cleancode198/SonWanUI-RN
